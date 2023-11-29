@@ -1,0 +1,66 @@
+{
+  "name": "flower_admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "axios": "^1.2.2",
+    "chatgpt": "^4.2.0",
+    "core-js": "^3.6.5",
+    "dayjs": "1.10.5",
+    "echarts": "^5.4.1",
+    "element-plus": "^2.4.0",
+    "js-cookie": "^3.0.1",
+    "js-md5": "^0.8.3",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "qs": "^6.11.2",
+    "screenfull": "5.1.0",
+    "store2": "^2.14.2",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.7.1",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "wangeditor": "4.7.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-eslint": "~4.5.11",
+    "@vue/cli-plugin-router": "~4.5.11",
+    "@vue/cli-plugin-vuex": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "prettier": "^2.2.1",
+    "style-resources-loader": "^1.5.0",
+    "vue-cli-plugin-style-resources-loader": "^0.1.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
